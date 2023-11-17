@@ -1,0 +1,27 @@
+/**
+ * All of the CSS for your completed-profiles functionality should be
+ * included in this file.
+ */
+
+#tti_assessment_cp_table th,
+#tti_assessment_cp_table td {
+	text-align: center !important;
+}
+
+#tti_assessment_cp_table th {
+	color: #000;
+	line-height: 20px;
+}
+
+#tti_assessment_cp_table_length {
+	margin-bottom: 20px;
+}
+
+#tti_cp_download_btn {
+	cursor: pointer;
+}
+
+#tti_assessment_cp_table td {
+	font-size: 13px;
+	vertical-align: middle;
+}

@@ -1,0 +1,366 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/* .assessment_button {} */
+
+.assessment_button img {
+	width: 18px;
+	margin: 0 0 0 12px;
+	display: none;
+}
+
+.assessment_button button {
+	background: #21395f;
+	color: #fff;
+	padding: 16px 10px;
+	display: inline-block;
+	border-radius: 8px;
+	outline: none;
+	cursor: pointer;
+	width: 249px;
+	margin-top: 24px;
+}
+
+.assessment_button button:hover {
+	outline: none;
+}
+
+.assessment_button button:disabled,
+.assessment_button button[disabled] {
+	border: 1px solid #999999;
+	background-color: #cccccc;
+	color: #666666;
+	cursor: inherit;
+}
+
+/* #responseIsSelected {} */
+
+#responseIsSelected .success {
+	background: green;
+	color: #fff;
+	display: inline-block;
+	margin: 20px 0 0;
+	padding: 10px 20px;
+}
+
+#responseIsSelected .error {
+	background: red;
+	color: #fff;
+	display: inline-block;
+	margin: 20px 0 0;
+	padding: 10px 20px;
+}
+
+.selectFeedbackData ul {
+	margin: 0;
+}
+
+ul {
+	margin-bottom: 0 !important;
+}
+
+.user_error {
+	color: red !important;
+	font-size: 12px !important;
+	margin: 15px 0 0 !important;
+}
+
+.preloader-wrap {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	z-index: 2;
+}
+
+.percentage {
+	z-index: 100;
+	border: 1px solid #ccc;
+	text-align: center;
+	color: #fff;
+	line-height: 30px;
+	font-size: 15px;
+}
+
+.loader a {
+	text-align: center;
+	display: inline-block;
+	background: #fff;
+	padding: 10px 20px;
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+	margin: 15px 0 0;
+	border-radius: 4px;
+}
+
+.loader a:hover {
+	background: #fff;
+	color: #000;
+}
+
+.loader,
+.percentage {
+	height: 30px;
+	max-width: 500px;
+	border: 2px solid #00a0c1;
+	border-radius: 20px;
+	font-weight: 300;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.loader:after,
+.percentage:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.trackbar {
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	overflow: hidden;
+	position: relative;
+	opacity: 0.99;
+}
+
+.loadbar {
+	width: 0%;
+	height: 100%;
+	background: repeating-linear-gradient(45deg, #012243, #012243 10px, #00a6dc 10px, #00a6dc 20px);
+	box-shadow: 0px 0px 14px 1px #012243;
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation: flicker 5s infinite;
+	overflow: hidden;
+}
+
+.preloader-wrap p {
+	text-align: center !important;
+	margin: 8px 0 0 !important;
+	font-size: 14px;
+	color: #fff;
+}
+
+@keyframes animation {
+	10% {
+		opacity: 0.9;
+	}
+
+	30% {
+		opacity: 0.86;
+	}
+
+	60% {
+		opacity: 0.8;
+	}
+
+	80% {
+		opacity: 0.75;
+	}
+}
+
+.tti-platform {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 999999999;
+	background: #042545;
+	top: 0;
+	left: 0;
+}
+
+#isSelected {
+	background: #042545;
+	border: none;
+	color: #fff;
+	padding: 12px 20px;
+	border-radius: 4px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.download_pdf {
+	font-size: 14px;
+}
+
+.download_pdf img {
+	float: left;
+}
+
+.download_pdf span {
+	float: left;
+	margin: 8px 0 0;
+	color: #000;
+	font-weight: bold;
+}
+
+#take_loader_front {
+	width: 20px;
+	margin: 10px 0 0 9px;
+	display: none;
+}
+
+.selectFeedbackData label {
+	display: block;
+	margin-top: -9px;
+}
+
+.selectFeedbackData label span {
+	position: relative;
+	top: -5px;
+}
+
+.ttisi-content-block li {
+	list-style: none;
+	display: block;
+	padding-left: 20px;
+	background-image: url('../images/filled_circle.png');
+	background-repeat: no-repeat;
+	background-position: 0 9px;
+	margin-bottom: 10px;
+	background-size: 6px;
+	margin: 0 0 0 12px !important;
+}
+
+#wdm_enroll_help_btn {
+	display: none;
+}
+
+.ttisi-front-noti {
+	position: relative;
+	border-left-color: #f11b42 !important;
+	overflow: hidden;
+	background: #fff;
+	border-left: 4px solid #fff;
+	box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, .2);
+	margin: 14px 0 22px;
+	padding: 1px 12px;
+}
+
+.related .add_to_cart_button {
+	display: none !important;
+}
+
+#ttisi-assessment-users_length {
+	padding-bottom: 20px;
+}
+
+.tti-user-assess-history {
+	float: left;
+	margin-right: 40px;
+}
+
+.ttisi-content-block ul {
+	margin: 0;
+	padding-left: 20px;
+}
+
+.selectFeedbackData label span {
+	position: relative;
+	top: -11px;
+}
+
+.tti-platform-user-level-loading {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 999999999;
+	background: #042545;
+	top: 0;
+	left: 0;
+}
+
+/*header#masthead,
+ .menu-panel {
+   z-index: 1 !important;
+ }*/
+
+form.cart .ldgr_group_courses {
+	display: none;
+}
+
+td.ldgr-actions ul.kt-nav {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+td.ldgr-actions a.ttisi-blue-color {
+	display: none;
+}
+
+li.kt-nav__item .tti_retake_assessment,
+li.kt-nav__item .wdm-reinvite,
+li.kt-nav__item .tti-user-removal,
+li.kt-nav__Item .ldgr-user-removal {
+	visibility: visible !important;
+	font-size: 12px !important;
+	font-weight: 400 !important;
+	color: white !important;
+	border-radius: 10px !important;
+	background: #ff6900 !important;
+	padding: 7px 10px !important;
+	cursor: pointer !important;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+li.kt-nav__item .tti_retake_assessment:hover,
+li.kt-nav__item .tti_retake_assessment:focus,
+li.kt-nav__item .tti_retake_assessment:active,
+li.kt-nav__item .wdm-reinvite:hover,
+li.kt-nav__item .wdm-reinvite:focus,
+li.kt-nav__item .wdm-reinvite:active,
+li.kt-nav__item .tti-user-removal:hover,
+li.kt-nav__item .tti-user-removal:active,
+li.kt-nav__item .tti-user-removal:focus,
+li.kt-nav__Item .ldgr-user-removal:hover,
+li.kt-nav__Item .ldgr-user-removal:focus,
+li.kt-nav__Item .ldgr-user-removal:active {
+	color: white !important;
+	background: #ff6900 !important;
+	opacity: 0.8;
+}
+
+li.kt-nav__item .tti-user-removal:before {
+	content: " " !important;
+	font-size: 0px;
+	margin-right: 0px;
+}
+
+div.ldgr-edit-group {
+	visibility: visible;
+	font-size: 12px !important;
+	font-weight: 400;
+	color: white !important;
+	border-radius: 10px !important;
+	background: #ff6900 !important;
+	padding: 10px 10px;
+	display: inline-block;
+	cursor: pointer;
+	margin: 0px !important;
+	line-height: 12px;
+}
+
+div.ldgr-edit-group i {
+	font-size: 12px !important;
+}

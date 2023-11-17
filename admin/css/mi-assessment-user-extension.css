@@ -1,0 +1,278 @@
+#tti-profile-user-nav {
+    position: absolute;
+    top: -7px;
+    width: 97%;
+}
+
+#tti-profile-user-nav a {
+    border-bottom: 1px solid #f1f1f1;
+    color: #000;
+    float: left;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 8px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #e5e5e5;
+    color: #555;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#tti-profile-user-nav-inner a {
+    float: left;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 8px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #e5e5e5;
+    color: #555;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-left: .5em;
+}
+
+#tti-profile-user-nav a:hover {
+    background: #ffffff;
+}
+
+#tti-profile-user-nav h2 {
+    margin: 20px 0px 0px 0px !important;
+}
+
+form#your-profile {
+    position: relative;
+    padding-top: 42px;
+}
+
+.tti-active {
+    border-bottom: 1px solid #f1f1f1 !important;
+    background: #f1f1f1 !important;
+    color: #000 !important;
+    margin-bottom: -1px;
+}
+
+#tti-user-assess-page {
+    display: block;
+    width: 100%;
+}
+
+#tti-user-ass-tabs {
+    display: block;
+}
+
+#tti-user-ass-tabs {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Inner tabs CSS */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tti-user-tab {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tabcontent {
+    padding-left: 10px;
+}
+
+.tti-user-tab button {
+    border-bottom: 1px solid #f1f1f1;
+    color: #000;
+    float: left;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    background: #e5e5e5;
+    color: #555;
+    text-decoration: none;
+    margin-left: .5em;
+    white-space: nowrap;
+}
+
+/* Change background color of buttons on hover */
+.tti-user-tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tti-user-tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent-none {
+    display: none;
+}
+
+.tti-user-active-tab {
+    border-bottom: 1px solid #f1f1f1 !important;
+    background: #f1f1f1 !important;
+    color: #000 !important;
+    margin-bottom: -1px;
+}
+
+/* Add assessment form style */
+.user-add-assess-form label {
+    margin: 0 0 10px;
+    display: block;
+}
+
+.user-add-assess-form input[type="text"] {
+    width: 100%;
+    margin: 0 0 10px;
+    padding: 12px;
+}
+
+.user-add-assess-form {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.user-add-assess-form #status-error {
+    background: red;
+    color: #fff;
+    margin: 0px 0 0 10px;
+    display: none;
+    padding: 6px 6px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+#loader {
+    display: none;
+    margin: 5px 0 0 10px;
+    position: absolute;
+}
+
+.user-add-assess-form .ttiinfo {
+    font-size: .8em;
+    color: #FF6600;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+
+#tti-platform-post-body .search-box {
+    position: relative;
+    top: 35px;
+}
+
+.tti-plat-user-ass-edit #status-success {
+    display: none;
+    background: green;
+    color: #fff;
+    margin: 0px 0 0 10px;
+    display: none;
+    padding: 6px 6px;
+    font-size: 12px;
+    position: relative;
+    top: 7px;
+    border-radius: 3px;
+}
+
+#afterResponse {
+    display: none;
+    border-top: 1px solid #ccc;
+    margin: 30px 0 0;
+    width: 100%;
+    float: left;
+}
+
+#assessment_name_block,
+#assessment_locked_status {
+    border-bottom: 1px solid #ccc;
+}
+
+.send_report_to_leader {
+    width: 100%;
+    float: left;
+    margin: 0 0 20px;
+}
+
+#afterResponse h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.print_report {
+    width: 100%;
+    float: left;
+    margin: 0 0 20px;
+}
+
+#afterResponse div.print_report input[type="radio"] {
+    float: left;
+    margin: 0 10px 0 0;
+    outline: none;
+}
+
+#afterResponse div.print_report label,
+#afterResponse div.send_report_to_leader label {
+    margin: -2px 25px 0 0;
+    float: left;
+}
+
+.add_record_assessment #add_user_assessment {
+    display: none;
+    float: left;
+    margin: 4px 0 0;
+}
+
+#loader_insert_assessment {
+    display: none;
+    margin: 8px 15px 0 10px;
+    float: left;
+}
+
+#loader_settings_assessment {
+    display: none;
+    position: relative;
+    top: 26px;
+    left: 3px;
+}
+
+#status-ok {
+    position: relative;
+    top: 4px;
+    color: #fff;
+    padding: 3px 8px 4px 8px;
+}
+
+.tti-ass-del-success {
+    background: green;
+}
+
+.tti-ass-del-error {
+    background: red;
+}
+
+.tti-ass-del-error,
+.tti-ass-del-success {
+    color: #fff;
+    padding: 10px;
+    width: 250px;
+    margin-top: 20px;
+}
+
+#add_user_settings {
+    margin-top: 20px;
+}
+
+#user_per_settings label {
+    position: relative;
+    top: -2px;
+    margin-right: 11px;
+}

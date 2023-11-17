@@ -1,0 +1,54 @@
+<pre class="alert alert-success">(
+    [time] => 4:23 pm
+    [ACTION] => Sending request to API.
+    [URL] => https://api.justrespond.com/api/v3/links/121317GXM
+    [ARGs] => 
+        (
+            [method] => GET
+            [headers] => 
+                (
+                    [Authorization] => 1RPZ****************************d687
+                    [Accept] => application/json
+                    [Content-Type] => application/json
+                )
+            [timeout] => 25000
+        )
+    [status] => success
+    [message] => Received content.
+)</pre>
+<pre class="alert alert-success">(
+    [time] => 4:23 pm
+    [ACTION] => Validating assessment before inserting.
+    [assessment_status_hidden] => true
+    [assessment_name_hidden] => Copy of Leading From Your Strengths 
+    [assessment_locked_status] => true
+    [print_status] => true
+    [status] => success
+)</pre>
+<pre class="alert alert-success">(
+    [time] => 5:15 pm
+    [ACTION] => Sending request to API.
+    [URL] => https://api.justrespond.com/api/v3/links/121317GXM
+    [ARGs] => 
+        (
+            [method] => GET
+            [headers] => 
+                (
+                    [Authorization] => 1RPZ****************************d687
+                    [Accept] => application/json
+                    [Content-Type] => application/json
+                )
+            [timeout] => 25000
+        )
+    [status] => success
+    [message] => Received content.
+)</pre>
+<pre class="alert alert-success">(
+    [time] => 5:15 pm
+    [ACTION] => Validating assessment before inserting.
+    [assessment_status_hidden] => true
+    [assessment_name_hidden] => Copy of Leading From Your Strengths 
+    [assessment_locked_status] => true
+    [print_status] => true
+    [status] => success
+)</pre>

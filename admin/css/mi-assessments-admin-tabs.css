@@ -1,0 +1,229 @@
+.tti-platform-loader-admin {
+    background: rgba(255, 255, 255, 0.78);
+    width: 100%;
+    height: 100%;
+    z-index: 9999999999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.tti-platform-loader-admin img {
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tti-platform-tab {
+    background-color: #f1f1f1 !important;
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    height: 100%;
+}
+
+.tti-platform-tab button.tti-platform-tablinks {
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 14px;
+    border: none;
+    display: block;
+    float: none;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    background-color: #f1f1f1 !important;
+    color: #000;
+    font-family: arial;
+}
+
+.tti-platform-tab button.tti-platform-tablinks.active {
+    background-color: #ccc !important;
+    color: #000 !important;
+}
+
+.tab-detail .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    box-sizing: border-box;
+}
+
+.tab-detail {
+    width: 75%;
+    float: left;
+    font-family: Arial;
+}
+
+.tab-detail h3 {
+    margin: 0 0 15px;
+    color: #000;
+    font-size: 30px;
+}
+
+.tab-detail p {
+    line-height: 20px;
+    font-size: 14px;
+    margin: 15px 0;
+    color: #000;
+}
+
+.tab-detail strong {
+    font-weight: bold;
+}
+
+#assessment_list select,
+#assessment_list_text select {
+    border-radius: 4px;
+    padding: 5px 0;
+    font-size: 14px;
+    font-family: arial;
+    outline: none;
+    width: 300px;
+}
+
+#assessment_checklist {
+    display: none;
+}
+
+#assessment_checklist .row-1 {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0 7px;
+    margin: 0 0 10px;
+    border-top: 1px solid #ccc;
+}
+
+#assessment_checklist .row {
+    width: 100%;
+    float: left;
+    margin: 2px 0;
+}
+
+#assessment_checklist .col-1:first-child {
+    width: 34% !important;
+    text-align: left;
+}
+
+#assessment_checklist .col-1 {
+    width: 22%;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+}
+
+#assessment_checklist .col:first-child {
+    width: 34% !important;
+    text-align: left;
+}
+
+#assessment_checklist .col {
+    width: 22%;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+}
+
+#assessment_checklist .col input[type="checkbox"] {
+    float: left;
+    margin: 3px 10px 0 0;
+}
+
+#assessment_checklist .col input[type="radio"] {
+    margin: 3px 0 0 0;
+}
+
+#assessment_checklist .col label {
+    font-size: 12px;
+    color: #000;
+}
+
+#assessment_list select,
+#assessment_list_graphic select {
+    border-radius: 4px;
+    padding: 5px 0;
+    font-size: 14px;
+    font-family: arial;
+    outline: none;
+    width: 300px;
+}
+
+#assessment_checklist_for_graphic {
+    display: none;
+}
+
+#assessment_checklist_for_graphic .row-1 {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0 7px;
+    margin: 0 0 10px;
+    border-top: 1px solid #ccc;
+}
+
+#assessment_checklist_for_graphic .row {
+    width: 100%;
+    float: left;
+    margin: 2px 0;
+}
+
+#assessment_checklist_for_graphic .col-1:first-child {
+    width: 34% !important;
+    text-align: left;
+}
+
+#assessment_checklist_graphic .col-1 {
+    width: 22%;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#assessment_checklist_for_graphic .col:first-child {
+    width: 34% !important;
+    text-align: left;
+}
+
+#assessment_checklist_for_graphic .col {
+    width: 22%;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+}
+
+#assessment_checklist_for_graphic .col input[type="checkbox"] {
+    float: left;
+    margin: 3px 10px 0 0;
+}
+
+#assessment_checklist_for_graphic #count_for_bh .col {
+    width: 25% !important;
+    text-align: left;
+}
+
+#assessment_checklist #count_for_pdfc .col {
+    width: 25% !important;
+    text-align: left;
+}
+
+#assessment_list_pdf select,
+#assessment_list_block select,
+#assessment_list_for_cons_report_block select {
+    border-radius: 4px;
+    padding: 5px 0;
+    font-size: 14px;
+    font-family: arial;
+    outline: none;
+    width: 300px;
+}

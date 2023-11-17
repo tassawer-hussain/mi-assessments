@@ -1,0 +1,271 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.assessment-wrap-left,
+.assessment-wrap-right {
+	width: 50%;
+	float: left;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+#afterResponse {
+	width: 100%;
+	float: left;
+}
+
+.assessment-wrap {
+	width: 100%;
+	float: left;
+}
+
+.assessment-wrap label {
+	margin: 0 0 10px;
+	display: block;
+}
+
+.assessment-wrap input[type="text"] {
+	width: 100%;
+	margin: 0 0 10px;
+	padding: 12px;
+}
+
+#status-ok,
+#status-error {
+	display: none;
+}
+
+#status-ok {
+	color: #fff;
+	margin: 0px 0 0 10px;
+	padding: 6px 6px;
+	font-size: 12px;
+	border-radius: 3px;
+}
+
+#status-error {
+	background: red;
+	color: #fff;
+	margin: 0px 0 0 10px;
+	padding: 6px 6px;
+	font-size: 12px;
+	border-radius: 3px;
+}
+
+#loader {
+	display: none;
+	margin: 5px 0 0 10px;
+	position: absolute;
+}
+
+#loader_insert_assessment {
+	display: none;
+	margin: 8px 15px 0 10px;
+	float: left;
+}
+
+#afterResponse {
+	display: none;
+	border-top: 1px solid #ccc;
+	margin: 30px 0 0;
+}
+
+#afterResponse h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#afterResponse div.print_report input[type="radio"] {
+	float: left;
+	margin: 0 10px 0 0;
+	outline: none;
+}
+
+#afterResponse div.print_report label {
+	margin: -2px 25px 0 0;
+	float: left;
+}
+
+.ttiinfo {
+	font-size: .8em;
+	color: #FF6600;
+	letter-spacing: 2px;
+	padding-left: 5px;
+}
+
+#assessment-result {
+	height: 600px;
+	overflow-x: hidden;
+	width: 100%;
+	margin: 93px 0 0;
+}
+
+.add_record_assessment #add_assessment {
+	display: none;
+	float: left;
+	margin: 4px 0 0;
+}
+
+.add_record_assessment #record_inserted {
+	color: #fff;
+	padding: 10px 10px;
+	font-size: 12px;
+	border-radius: 3px;
+	display: none;
+	float: left;
+	margin-left: 13px;
+}
+
+.print_report {
+	width: 100%;
+	float: left;
+	margin: 0 0 20px;
+}
+
+.mce-container.mce-panel.mce-abs-layout-item.mce-first.mce-last {
+	width: 100% !important;
+}
+
+.mce-container .mce-tabs {
+	text-align: center;
+	width: 100%;
+}
+
+.mce-container .mce-tabs .mce-tab {
+	display: inline-block;
+	height: auto !important;
+	padding: 17px 30px !important;
+	text-shadow: none !important;
+	font-size: 14px !important;
+	box-shadow: none !important;
+	font-weight: bold !important;
+}
+
+.mce-tab.mce-active {
+	background: #00a0d2 !important;
+	border-bottom-color: transparent;
+	margin-bottom: 0 !important;
+	color: #fff !important;
+	height: auto !important;
+	padding: 17px 30px !important;
+	text-shadow: none !important;
+	font-size: 16px !important;
+}
+
+#assessment_list {
+	width: 300px !important;
+}
+
+.ttiplatform_settings button {
+	margin: 8px 0 0 !important;
+}
+
+.ttiplatform_settings input[type="text"] {
+	width: 50%;
+	margin: 0 0 10px;
+	padding: 12px;
+}
+
+.secret_key_response {
+	margin: 7px 0 0 10px;
+	display: inline-block;
+}
+
+.secret_key_response .warning {
+	color: #856404;
+	background-color: #fff3cd;
+	border-color: #ffeeba;
+	position: relative;
+	padding: 7px 12px;
+	border-radius: .25rem;
+}
+
+.secret_key_response .success {
+	color: #155724;
+	background-color: #d4edda;
+	border-color: #c3e6cb;
+	position: relative;
+	padding: 7px 12px;
+	border-radius: .25rem;
+}
+
+.secret_key_response .error {
+	color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+	position: relative;
+	padding: 7px 12px;
+	border-radius: .25rem;
+}
+
+.return_url {
+	margin: 35px 0 0;
+	background: #32373c;
+	display: inline-block;
+	padding: 8px 15px;
+	color: #fff;
+	border-radius: 4px;
+}
+
+.error_popup_tti {
+	width: 100%;
+	float: left;
+}
+
+.error_popup_tti h2 {
+	color: black;
+	font-size: 20px;
+}
+
+.error_popup_tti a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+#assessment-meta-box {
+	position: relative;
+	min-width: 255px;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+	background: #fff;
+	overflow: hidden;
+}
+
+#assessment_name {
+	float: left;
+	margin-right: 8px;
+	margin-bottom: 15px;
+}
+
+.send_report_to_leader {
+	width: 100%;
+	float: left;
+	margin: 0 0 20px;
+}
+
+#assessment_name_block,
+#assessment_locked_status {
+	border-bottom: 1px solid #ccc;
+}
+
+#assessment_name_block h3,
+#assessment_locked_status h3 {
+	font-weight: 500 !important;
+	font-size: 15px !important;
+}
+
+/* #assessment_name_span_head,
+#assessment_locked_status_head {
+	color: #336699;
+} */
+
+#report_api_check {
+	margin-bottom: 20px;
+}
+
+th#report_api_check {
+    margin: 0 0 0px;
+}

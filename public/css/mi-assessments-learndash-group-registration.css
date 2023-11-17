@@ -1,0 +1,563 @@
+/**
+ * All of the CSS for your completed-profiles functionality should be
+ * included in this file.
+ */
+
+#tti_assessment_cp_table th, #tti_assessment_cp_table td { text-align: center !important; }
+#tti_assessment_cp_table th { color:#000; }
+#tti_assessment_cp_table_length { margin-bottom: 20px; }
+#tti_cp_download_btn { cursor: pointer; }
+#tti_assessment_cp_table td { font-size: 13px; vertical-align: middle; }
+#tti_group_leader_retake .ldgr-actions { position: relative; }
+.retake_assessment_loader{ width: 40px;position: absolute;top: 22px; }
+.swal2-confirm { background-color: #428bca !important; background: #428bca !important;  }
+.tti_retake_assessment, 
+.tti_retake_assessment:hover, 
+.wdm-reinvite.button,
+.wdm-reinvite.button:hover,
+.wdm_remove.button, 
+.wdm_remove.button:hover { 
+   background: transparent !important;
+   color: #000;
+   box-shadow: none !important;
+   cursor: pointer;
+}
+img#wdm_ajax_loader {
+    margin-left: 10px;
+}
+.gl-action-drodown li span {
+    font-size: 12px;
+}
+#tti_group_leader_retake thead .sorting_asc {
+    background: url(../images/sort_asc.png) no-repeat center right, rgba(51, 51, 51, 0.7)!important;
+}
+#tti_group_leader_retake thead .sorting_desc {
+    background: url(../images/sort_desc.png) no-repeat center right, rgba(51, 51, 51, 0.7)!important;
+}
+table.dataTable tbody th, 
+table.dataTable tbody td {
+    padding: 8px 0; 
+}
+#tti_group_leader_retake .ldgr-actions a {
+    border:none!important;
+   /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+   -webkit-border-radius: 4px!important;
+
+   /* Firefox 1-3.6 */
+   -moz-border-radius: 4px!important;
+  
+   /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+   border-radius: 4px!important;
+}
+.gl-action-drodown li span:hover {
+    color: #af9c9c!important;
+}
+#tti_group_leader_retake th, 
+#tti_group_leader_retake td { 
+    text-align: center !important; 
+    vertical-align: middle; 
+    font-size: 13px;
+ font-family: "Open Sans", sans-serif;
+}
+.ttisi-info-gp {
+	display: inline;
+    font-size: 12px;
+    padding: 0.4em 0.6em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    color: #d9534f;
+    background-color: #f3070038;
+   margin: 8px auto !important;
+}
+.ttisi-info-warning-color {
+	background-color: #f7ad1342;
+    color: #efa710;
+    display: block;
+    cursor: text!important;
+    width: 199px;
+    margin: 0 auto;
+}
+.ttisi-info-limit-color {
+   color: #591df1;
+   display: block;
+   cursor: text!important;
+   background-color: rgba(89,29,241,.1);
+   width: 170px;
+   margin: 0 auto;
+}
+.ttisi-info-logged-color {
+    background-color: rgba(253,39,235,.1);
+    color: #fd27eb;
+    cursor: text!important;
+}
+.ttisi-info-success-color {
+	background-color: #41ec4145;
+    color: #359a35;
+    display: block;
+    cursor: text!important;
+    width: 215px;
+    margin: 0 auto;
+}
+.ttisi-info-blue-color {
+	background-color: #648abb42;
+    display: block;
+    cursor: text!important;
+    color: #428bca;
+    width: 200px;
+    text-wrap: balance;
+}
+.ttisi-blue-color {
+    background-color: #428bca;
+    display: block;
+    width: 159px;
+    color: #ffffff;
+}
+.ttisi-blue-color:hover {
+    color: #ffffff;
+}
+
+.tti-gp-column {
+	width: 22px;
+}
+.ttisi-info-bllue-color {
+	background-color: #32dad2;
+}
+.gl-action-drodown {
+    margin-top: 10px!important;
+    width: 127px;
+}
+table#tti_group_leader_retake { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+table#tti_group_leader_retake tr:nth-of-type(odd) { 
+  background: #f1f1f1;
+}
+table#tti_group_leader_retake th { 
+  color: white; 
+  font-weight: bold; 
+}
+@media(max-width: 800px) {
+    .gl-action-drodown .kt-nav__link {
+        padding-left: 0px;
+    }
+    table#tti_group_leader_retake td:nth-of-type(4):before, 
+    table#tti_group_leader_retake td:nth-of-type(3):before { 
+        position: relative;
+        display: block;
+        padding: 0;
+    }
+    .ttisi-info-gp {
+        display: block !important;
+        width: 80%;
+    }
+    table#tti_group_leader_retake td.ldgr-pdf-details {
+        text-align: center !important;
+    }
+    .dropdown-menu {
+        left: auto !important;
+        width: 100% !important;
+        position: inherit !important;
+    }
+    .dropdown-menu:before {
+        border-color: transparent transparent #fff transparent;
+    }
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+    .ttisi-info-gp {
+        display: inline-block;
+    }
+    table#tti_group_leader_retake  td, table#tti_group_leader_retake  th { 
+      /*padding: 6px; */
+      /*border: 1px solid #ccc; */
+      text-align: right !important; 
+    }
+
+    /* Force table to not be like tables anymore */
+    table#tti_group_leader_retake, table#tti_group_leader_retake thead, table#tti_group_leader_retake tbody, table#tti_group_leader_retake th, table#tti_group_leader_retake td, table#tti_group_leader_retake tr { 
+        display: block; 
+    }
+    
+    /* Hide table headers (but not display: none;, for accessibility) */
+    table#tti_group_leader_retake thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    
+    table#tti_group_leader_retake tbody tr.odd {
+        background-color: transparent;
+    }
+
+    table#tti_group_leader_retake tbody tr.odd > .sorting_1, 
+    table#tti_group_leader_retake tbody tr.even > .sorting_1 {
+        background-color: #428bca !important;
+        color: #fff;
+    }
+
+    table#tti_group_leader_retake tr {/* border: 1px solid #ccc;*/ }
+    
+    table#tti_group_leader_retake td { 
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid #0b0a0a;
+        position: relative;
+    }
+
+
+    table#tti_group_leader_retake td:before { 
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 3px;
+        /*width: 45%; */
+        padding: 10px;
+        padding-right: 10px; 
+        text-align: left;
+        white-space: nowrap;
+    }
+    
+    /*
+    Label the data
+    */
+    table#tti_group_leader_retake td:nth-of-type(1):before { content: "Name"; }
+    table#tti_group_leader_retake td:nth-of-type(2):before { content: "Email"; }
+    table#tti_group_leader_retake td:nth-of-type(3):before { content: "Report Details"; }
+    table#tti_group_leader_retake td:nth-of-type(4):before { content: "Status"; }
+    table#tti_group_leader_retake td:nth-of-type(6):before { content: "Action"; }
+}
+table#tti_group_leader_retake th {
+    background-color: rgba(51, 51, 51, 0.7);
+    color: #fff;
+    /* text-transform: uppercase; */
+    font-size: 13px;
+}
+table#tti_group_leader_retake {
+    font-family: 'Arial';
+    position: relative;
+    top: 25px;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    /* border-bottom: 2px solid rgba(51, 51, 51, 0.7); */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+}
+.kt-nav {
+    display: block;
+    padding: 1rem 0;
+    margin: 0 !important;
+    list-style: none !important;
+    border: 0;
+}
+.kt-nav li {
+    list-style: none !important;
+    margin: 0px 0px 0px 17px!important;
+}
+.dropdown-menu {
+    border: 1px solid rgb(238, 238, 238) !important;
+    border-radius: 0;
+    min-width: 11rem;
+    padding: 0;
+    -webkit-box-shadow: 0 0 50px 0 rgba(82,63,105,.15);
+    box-shadow: 0 0 50px 0 rgba(82,63,105,.15);
+    border-radius: 4px;
+    left: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+.gl-action-btn {
+    width: 90% !important;
+    font-size: 10px;
+    margin: 0 auto;
+    padding: 8px;
+}
+.dropdown-menu:before {
+    content:"";
+    position: absolute;
+    right: 71px;
+    top: -6px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 5px 5px;
+    border-color: transparent transparent #fff transparent;
+    z-index:9999;
+}
+#tti_group_leader_retake_info, 
+#tti_group_leader_retake_paginate  {
+    padding-top: 3.25em !important;
+}
+
+.tab-group-settings h4 {
+    color: #212121;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    font-size: 18px;
+}
+.tab-group-settings h5 {
+    color: #212121;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    font-size: 16px;
+}
+.tab-group-settings {
+    padding: 16px 16px !important;
+}
+.group-setting-one .pt-left {
+    float: left;
+    text-align: left;
+    padding-top: 30px;
+    width: 30%;
+}
+.group-setting-one .pt-right {
+    float: right;
+    text-align: right;
+    width: 20%;  
+}
+.group-setting-one .pt-middle {
+    float: left;
+    text-align: left;
+    width: 50%;
+    /*line-height: 84px;*/
+    font-size: 15px;
+    padding-top: 30px;
+}
+.switch-gp-settings {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 33px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.switch-gp-settings::after {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius:50%;
+  background-color: white;
+  top: 1px;
+  transition: all 0.3s;
+}
+.checkbox-gp-settings:checked + .switch-gp-settings::after {
+  left : 20px;
+  content : "" !important;
+  position: absolute;
+  top: 0.5px !important;
+  line-height: 1;
+}
+.checkbox-gp-settings:checked + .switch-gp-settings {
+  background-color: #30445C;
+}
+.checkbox-gp-settings,
+.switch-gp-settings:before {
+  display : none;
+}
+.switch-gp-settings-left-on {
+    background-color: #54bd19 !important;
+}
+.switch-gp-settings-left-off {
+    background-color: rgba(226, 26, 26, 0.96) !important;
+}
+.switch-gp-settings-left-on:after {
+    left: 20px !important;
+}
+.switch-gp-settings-left-off:after {
+    left: 1px !important;
+}
+.group-setting-one .pt-middle p {
+    color: #687079;
+    margin: 0;
+    /*display: inline-block;*/
+    vertical-align: middle;
+    line-height: normal;
+}
+.group-setting-one {
+    height: auto;
+    padding-left: 15px;
+    margin-bottom: 18px;
+    margin-top: 10px;
+    background: #d2d4d6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    display: block;
+    float: left;
+}
+.enroll-user-btn span {
+    vertical-align: super;
+}
+.tti-user-removal {
+    cursor: pointer;
+}
+.tti-user-removal:before {
+    content: "\e910";
+    font-family: ldgr;
+    font-size: 20px;
+    margin-right: 8px;
+}
+.tti-user-removal.button{
+    background: transparent !important;
+    color: #000;
+    box-shadow: none !important;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: none;
+    background-color: transparent;
+    font-size: 14px;
+    box-shadow: none;
+    align-items: center;
+}
+
+/* Style Group Courses list - On Enroll User page where list of all groups are displaying */
+.ttisi-course-wrapper {
+    margin-left: 45px;
+    margin-top: 15px;
+}
+.ttisi-course-wrapper p {
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1em;
+}
+.ttisi-course-wrapper ul {
+    padding: 0px;
+    list-style: none;
+    line-height: 20px;
+}
+.ttisi-course-wrapper h2 {
+    line-height: 14px;
+    padding: 0px;
+    margin: 0px 0px 10px 30px;
+}
+.ttisi-course-wrapper h2 span.ttisi-ldgr-group-course-name {
+    margin: 0px !important;
+}
+
+/* Style Group Courses on single group page. */
+/* Style Group Courses list */
+.misg-course-wrapper {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.misg-course-wrapper p {
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1em;
+}
+.misg-course-wrapper ul {
+    padding: 0px;
+    list-style: none;
+    line-height: 20px;
+}
+.misg-course-wrapper h2 {
+    line-height: 14px;
+    padding: 0px;
+    margin: 0px 0px 10px 30px;
+}
+.misg-course-wrapper h2 span.ttisi-ldgr-group-course-name {
+    
+    margin: 0px !important;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    line-height: 1;
+    margin-top: 9px;
+    margin-bottom: 6px;
+}
+.ldgr-group-listing .gr-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    line-height: 1;
+    margin-top: 9px;
+    margin-bottom: 6px;
+}
+.ldgr-group-single .ldgr-top-banner .ldgrs-edit-wrap>div {
+    align-items: flex-end;
+}
+.ldgr-group-courses,
+span.enroll-new-user.ldgr-btn.ldgr-bg-color.ldgr-desktop,
+span.enroll-new-user.ldgr-btn.ldgr-bg-color.ldgr-mobile,
+span.ldgr-btn.cnsg-btn {
+    display: none !important;
+}
+span.tti-stack-btn {
+    background-color: transparent;
+    box-shadow: none;
+    visibility: hidden;
+    padding: 0px;
+    right: -2px;
+    position: relative;
+    font-size: 10px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 1;
+    border: 1px solid;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 0px 10px;
+}
+span.tti-stack-btn::after {
+    visibility: visible;
+    font-size: 12px;
+    font-weight: 400;
+    color: white!important;
+    border-radius: 10px!important;
+    background: #ff6900!important;
+    padding: 10px 10px;
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+}
+span.enroll-new-user.tti-stack-btn::after {
+    content: "Enroll New User";
+}
+span.cnsg-btn.tti-stack-btn::after {
+    content: "Create New Sub Group";
+}
+span.cnsg-btn.tti-stack-btn {
+    bottom: 5px;
+}
+.ldgrs-edit-wrap form button.ldgr-btn {
+    padding-right: 0px !important;
+}
+.ldgr-btn.th-set-it {
+    padding: 0px 35px 10px !important;
+}
+
+.ldgr-edit-group.ldgr-edit-groups-css.ldgr-color {
+    visibility: visible;
+    font-size: 11px !important;
+    font-weight: 400;
+    color: white!important;
+    border-radius: 10px!important;
+    background: #ff6900!important;
+    padding: 7px 7px;
+    float: right;
+    margin-top: -12px !important;
+}

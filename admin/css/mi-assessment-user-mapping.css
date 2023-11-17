@@ -1,0 +1,69 @@
+/* mapping page style */
+.tti-mapping-page h2 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.tti-mapping-fiel-sect {
+    float: left;
+    width: 23%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.tti-mapping-fields input {
+    width: 100%;
+    margin: 0 0 10px;
+    padding: 12px;
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #7e8993;
+    background-color: #fff;
+    color: #32373c;
+}
+
+.tti-map-cond {
+    width: 15%;
+    float: left;
+    text-align: center;
+}
+
+.tti-map-cond p {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+#tti-mapping-submit {
+    margin-top: 20px;
+    margin-left: 10px;
+    display: block;
+}
+
+.clear-fl-effect {
+    clear: both;
+}
+
+.remove_button,
+.add_button {
+    position: relative;
+    top: 11px;
+    left: 10px;
+}
+
+#loader_save_mapp {
+    display: none;
+    position: relative;
+    left: 102px;
+    top: -26px;
+}
+
+#wpfooter {
+    display: none;
+}
+
+#report_api_check {
+    width: 100%;
+    float: left;
+    margin: 0 0 20px;
+}
